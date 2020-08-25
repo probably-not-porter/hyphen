@@ -969,9 +969,24 @@ textarea {
 }
 
 /* HYPHEN STYLES START HERE */
+body{
+	font-family: helvetica;
+	color: #555;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .post{
 	margin: 10px;
 	padding: 2px 10px 10px 10px;
 	border-radius: 10px;
 	background-color: lightgray;
+}
+a {
+	color: black;
+	
+	text-decoration: none;
+	text-transform: bold;
+  }
+a:hover{
+	color: #666;
 }
