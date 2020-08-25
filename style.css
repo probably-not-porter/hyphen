@@ -1018,3 +1018,7 @@ h1{
 footer a{
 	text-decoration: underline;
 }
+.entry-header{
+	align-items: center;
+	text-align: center;
+}
