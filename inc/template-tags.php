@@ -63,7 +63,7 @@ if ( ! function_exists( 'hyphen_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'hyphen' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'hyphen' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'hyphen' ) . ' - </span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 
 			/* translators: used between list items, there is a space after the comma */
@@ -90,7 +90,7 @@ if ( ! function_exists( 'hyphen_entry_footer' ) ) :
 					wp_kses_post( get_the_title() )
 				)
 			);
-			echo '</span>';
+			echo ' - </span>';
 		}
 
 		edit_post_link(

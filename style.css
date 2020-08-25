@@ -969,17 +969,20 @@ textarea {
 }
 
 /* HYPHEN STYLES START HERE */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&family=Podkova:wght@500&display=swap');
+
 body{
-	font-family: helvetica;
+	font-family: 'Inconsolata', monospace;
 	color: #555;
 	margin-left: 10%;
 	margin-right: 10%;
+	background: linear-gradient(180deg, #6192A7 0%, rgba(255, 255, 255, 0) 100%), #73919E;
 }
 .post{
 	margin: 10px;
 	padding: 2px 10px 10px 10px;
-	border-radius: 10px;
-	background-color: lightgray;
+	border-radius: 3px;
+	background: rgba(255, 255, 255, 0.4);
 }
 a {
 	color: black;
@@ -989,4 +992,29 @@ a {
   }
 a:hover{
 	color: #666;
+}
+#masthead{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.site-branding{
+	background: rgba(255,255,255,0.1);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	align-items: center;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+h1{
+	font-size: 36px;
+	line-height: 40px;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 10px;
+}
+footer a{
+	text-decoration: underline;
 }
