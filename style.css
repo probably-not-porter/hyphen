@@ -8,11 +8,25 @@
 */
 
 /*
+* Fonts
+*/
+@font-face {
+  font-family: 'pricedown';
+  src: url('fonts/pricedown.eot'); /* IE9 Compat Modes */
+  src: url('fonts/pricedown.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/pricedown.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/pricedown.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/pricedown.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/pricedown.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+/*
  * Globals
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'pricedown', Fallback, sans-serif;
   color: white;
   background-color: #111;
 }
